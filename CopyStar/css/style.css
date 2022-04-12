@@ -1,0 +1,382 @@
+body {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+    font-family:"GardensC"; 
+   
+    
+}
+
+@font-face {
+    font-family: GardensC; /* Гарнитура шрифта */
+    src: url("../fonts/GardensC.otf"); /* Путь к файлу со шрифтом */
+}
+
+h1, h1, h3, h4, H5, H6{
+    margin: 0; /*отступы*/
+}
+
+p{
+    margin: 0 0 10px;
+}
+
+*,
+*:before
+*:after{
+    box-sizing: border-box;
+}
+
+/*container
+===========================*/
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+.text{
+    color: #d13419;
+    font-size: 25px;
+}
+.h3{
+    display:inline-block;
+    margin-left: 10px;
+}
+
+.logo{
+    width: 100px;
+    height: 71px;
+    margin-top: 10px;
+}
+
+header {
+    display: flex;
+    min-width: 120px;
+    color: #000;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-content: space-around;
+    margin-bottom: 20px;
+}
+.h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.h1{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border: #fff;
+}
+
+.img1{
+    width: 300px;
+    height: 300px;
+}
+.img3{
+    width: 20px;
+    height: 20px;
+}
+
+.img2{
+    width: 450px;
+    height: 400px;
+}
+.img4{
+    width: 25px;
+    
+}
+
+.img5{
+    width: 65px;
+    height: 65px;
+}
+
+
+/* основное меню */
+nav {
+    background-color:#1d438b;
+    overflow: hidden;
+    align-items: center;
+    }
+    nav ul {
+    margin: 0;
+    padding: 0;
+    }
+    nav ul li {
+    float: left;
+    overflow: hidden;
+    }
+    nav ul li a {
+    color: #FFFFFF;
+    display: block;
+    font-size: 17px;
+    
+    height: 20px;
+    line-height: 20px;
+    padding: 4px 10px 4px 11px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    }
+    nav ul li a:hover, nav ul li.selected a {
+    background: none repeat scroll 0 0 #353535;
+    }
+
+
+    
+
+
+
+
+
+
+
+.form_button {
+	padding: 10px 20px;
+	border: none; /* Без границы блока.*/
+	border-radius: 5px; /* Радиус закругления*/
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	font-size: 16xp;
+	color :#fff ; /*Цвет текста*/
+	background-color: #4682B4; /* Цвет фона*/
+	outline: none; /* Внешней границы элемента */
+	cursor: pointer; /* Тип курсора при наведение*/
+	transition: 0.3s; /*  transition позволяет делать плавные переходы между двумя значениями какого-либо CSS свойства*/
+}
+
+.form_button:focus,
+.form_button:hover{
+         background-color: rgba(212, 18, 28, 0.7); /*RGBA Цвет фона и значение прозрачности. */
+ }
+
+/*СЛАЙДЕР*/
+
+ #slider_bl .wrapper{max-width:60em;margin:1em auto;position:relative; margin-bottom: 50px; margin-top: 50px;}
+#slider_bl input{display:none
+}#slider_bl .inner{width:500%;line-height:0}
+#slider_bl article{width:20%;float:left;position:relative}
+#slider_bl article img{width:100%
+}#slider_bl .slider-prev-next-control{height:50px;position:absolute;top:50%;width:100%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%)}
+#slider_bl .slider-prev-next-control label{display:none;width:40px;height:40px;border-radius:50%;background:#fff;opacity:.7}
+#slider_bl .slider-prev-next-control label:hover{opacity:1}
+#slider_bl .slider-dot-control{position:absolute;width:100%;bottom:0;text-align:center}
+#slider_bl .slider-dot-control label{cursor:pointer;border-radius:5px;display:inline-block;width:10px;height:10px;background:#bbb;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}
+#slider_bl .slider-dot-control label:hover{background:#ccc;border-color:#777}
+#slider_bl .info{position:absolute;font-style:italic;line-height:20px;opacity:0;color:#000;text-align:left;-webkit-transition:all 1s ease-out .6s;-moz-transition:all 1s ease-out .6s;transition:all 1s ease-out .6s}
+#slider_bl .info h3{color:#fcfff4;margin:0 0 5px;font-weight:400;font-size:1.5em;font-style:normal}
+#slider_bl .info.top-left{top:30px;left:30px}
+#slider_bl .info.top-right{top:30px;right:30px}
+#slider_bl .info.bottom-left{bottom:30px;left:30px;}
+#slider_bl .info.bottom-right{bottom:30px;right:30px}
+#slider_bl .slider-wrapper{width:100%;overflow:hidden;border-radius:5px;box-shadow:1px 1px 4px #666;background:#fff;background:#fcfff4;-webkit-transform:translateZ(0);-moz-transform:translateZ(0);-ms-transform:translateZ(0);-o-transform:translateZ(0);transform:translateZ(0);-webkit-transition:all .5s ease-out;-moz-transition:all .5s ease-out;transition:all .5s ease-out}
+#slider_bl .slider-wrapper .inner{-webkit-transform:translateZ(0);-moz-transform:translateZ(0);-ms-transform:translateZ(0);-o-transform:translateZ(0);transform:translateZ(0);-webkit-transition:all .8s cubic-bezier(.77,0,.175,1);-moz-transition:all .8s cubic-bezier(.77,0,.175,1);transition:all .8s cubic-bezier(.77,0,.175,1)}
+#slider_bl #slide1:checked~.slider-prev-next-control label:nth-child(2)::after,#slider_bl #slide1:checked~.slider-prev-next-control label:nth-child(5)::after,#slider_bl #slide2:checked~.slider-prev-next-control label:nth-child(1)::after,#slider_bl #slide2:checked~.slider-prev-next-control label:nth-child(3)::after,#slider_bl #slide3:checked~.slider-prev-next-control label:nth-child(2)::after,#slider_bl #slide3:checked~.slider-prev-next-control label:nth-child(4)::after,#slider_bl #slide4:checked~.slider-prev-next-control label:nth-child(3)::after,#slider_bl #slide4:checked~.slider-prev-next-control label:nth-child(5)::after,#slider_bl #slide5:checked~.slider-prev-next-control label:nth-child(1)::after,#slider_bl #slide5:checked~.slider-prev-next-control label:nth-child(4)::after{font-family:FontAwesome;font-style:normal;font-weight:400;text-decoration:inherit;margin:0;line-height:38px;font-size:3em;display:block;color:#777}#slider_bl #slide1:checked~.slider-prev-next-control label:nth-child(2)::after,#slider_bl #slide2:checked~.slider-prev-next-control label:nth-child(3)::after,#slider_bl #slide3:checked~.slider-prev-next-control label:nth-child(4)::after,#slider_bl #slide4:checked~.slider-prev-next-control label:nth-child(5)::after,#slider_bl #slide5:checked~.slider-prev-next-control label:nth-child(1)::after{content:"";padding-left:15px}#slider_bl #slide1:checked~.slider-prev-next-control label:nth-child(2),#slider_bl #slide2:checked~.slider-prev-next-control label:nth-child(3),#slider_bl #slide3:checked~.slider-prev-next-control label:nth-child(4),#slider_bl #slide4:checked~.slider-prev-next-control label:nth-child(5),#slider_bl #slide5:checked~.slider-prev-next-control label:nth-child(1){display:block;float:right;margin-right:5px}#slider_bl #slide1:checked~.slider-prev-next-control label:nth-child(5),#slider_bl #slide2:checked~.slider-prev-next-control label:nth-child(1),#slider_bl #slide3:checked~.slider-prev-next-control label:nth-child(2),#slider_bl #slide4:checked~.slider-prev-next-control label:nth-child(3),#slider_bl #slide5:checked~.slider-prev-next-control label:nth-child(4){display:block;float:left;margin-left:5px}#slider_bl #slide1:checked~.slider-prev-next-control label:nth-child(5)::after,#slider_bl #slide2:checked~.slider-prev-next-control label:nth-child(1)::after,#slider_bl #slide3:checked~.slider-prev-next-control label:nth-child(2)::after,#slider_bl #slide4:checked~.slider-prev-next-control label:nth-child(3)::after,#slider_bl #slide5:checked~.slider-prev-next-control label:nth-child(4)::after{content:"";padding-left:8px}#slider_bl #slide1:checked~.slider-dot-control label:nth-child(1),#slider_bl #slide2:checked~.slider-dot-control label:nth-child(2),#slider_bl #slide3:checked~.slider-dot-control label:nth-child(3),#slider_bl #slide4:checked~.slider-dot-control label:nth-child(4),#slider_bl #slide5:checked~.slider-dot-control label:nth-child(5){background:#333}#slider_bl #slide1:checked~.slider-wrapper article:nth-child(1) .info,#slider_bl #slide2:checked~.slider-wrapper article:nth-child(2) .info,#slider_bl #slide3:checked~.slider-wrapper article:nth-child(3) .info,#slider_bl #slide4:checked~.slider-wrapper article:nth-child(4) .info,#slider_bl #slide5:checked~.slider-wrapper article:nth-child(5) .info{opacity:1}#slider_bl #slide1:checked~.slider-wrapper .inner{margin-left:0}#slider_bl #slide2:checked~.slider-wrapper .inner{margin-left:-100%}#slider_bl #slide3:checked~.slider-wrapper .inner{margin-left:-200%}#slider_bl #slide4:checked~.slider-wrapper .inner{margin-left:-300%}#slider_bl #slide5:checked~.slider-wrapper .inner{margin-left:-400%}@media only screen and (max-width:850px) and (min-width:450px){#slider_bl .slider-wrapper{border-radius:0}}@media only screen and (max-width:450px){#slider_bl .slider-wrapper{border-radius:0}#slider_bl .slider-wrapper .info{opacity:0}}@media only screen and (min-width:850px){#slider_bl body{padding:0 80px}}
+
+
+
+
+
+
+
+/* основной раздел каталога */
+#main {
+    background-color: #e6f1f8ce;
+    padding:20px 0;
+    }
+    #content {
+    overflow: hidden;
+    }
+    #content #left  {
+    border: 1px solid #E9E9E9;
+    
+    margin: 0 2%;
+    width: 100%;
+    }
+   
+   
+     ul {
+    list-style:none outside none;
+    margin:0;
+    padding:0;
+    }
+     #left ul li {
+    float:left;
+    padding-bottom: 21px;
+    width: 33%;
+    }
+     #left ul li:hover {
+    background-color: #d8dbf56c;
+    }
+    
+     #left ul li .img {
+    text-align: center;
+    }
+    
+   #left ul li .img img {
+    height:128px;
+    width:128px;
+    }
+   
+     #left ul li .info {
+    padding: 17px 20px 0 19px;
+    }
+    
+    ul li .info .title {
+    color: #4B4B4B;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 150px;
+    }
+     ul li .info .title:hover {
+    color: #049733;
+    }
+     #left ul li .info p {
+    color: #7F7F7F;
+    font-size: 11px;
+    line-height: 16px;
+    padding-top: 3px;
+    }
+     #left ul li .info .price {
+    background: none repeat scroll 0 0 #F7F7F7;
+    color: #383838;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    margin: 17px 0 10px;
+    padding: 6px 0 6px 8px;
+    }
+   
+     #left ul li .info .price .st {
+    color: #7F7F7F;
+    font-size: 11px;
+    line-height: 16px;
+    margin-right: 3px;
+    }
+   
+    
+     #left ul li .info .actions {
+    overflow:hidden;
+    }
+ 
+    #left ul li .info .actions a:first-child {
+    color: #0dac42cc;
+    float:center;
+    }
+    .text_1{
+        margin: 13px 0;
+        color: #2F4F4F;
+        font-weight: bold;
+        font-size: 150%;
+        padding-bottom: 2%;
+    
+    }
+
+
+
+    .p{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+
+    footer {
+   
+        justify-content: center;
+        padding: 1%;
+        background-color: #1d438b;
+        
+    }
+
+    .text_footer{
+        color: #fff;
+    }
+
+
+    .center{
+        justify-content: center;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 25px;
+
+        
+        /*Настройка внешнего вида строк*/
+    }
+
+    .input{
+        margin: 10px 0;
+        padding: 10px;
+        border: unset;
+        border-bottom: 2px solid #e3e3e3;
+        outline: none;
+        /*Настройка внешнего вида строк ввода*/
+    }
+    
+    .button{
+        
+        padding: 10px;
+        background: #531ecf52;
+        border: unset;
+        cursor: pointer;
+        /*Настройка внешнего вида кнопок*/
+    }
+
+    .ot{
+      margin-left: 15px;
+      
+    }
+
+    .back-to-top{
+        position: fixed;
+        right: 20px;
+        bottom: 100px;
+        width: 63px;
+        height: 52px;
+        border-color: transparent;
+        border-radius: 10px;
+        background-color: #b84f09;
+    }
+
+    .sel{
+        width: 400px;
+        padding: 7px;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .op{
+        font-size: 25px;
+    }
+
+    .button{
+        border: 1px solid #000;
+        text-decoration:none;
+        color: rgb(255, 0, 0);
+    }
+
+
+  

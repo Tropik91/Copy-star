@@ -1,0 +1,56 @@
+
+
+.a1 {
+	color: #7c9ab7;
+	font-weight: bold;
+	text-decoration: none;
+
+	/*настройка цвета текста*/
+}
+
+.p1 {
+	margin: 10px 0;
+	/*настройка отступа текста*/
+}
+
+
+.form1 { 
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	margin-bottom: 70px;
+	width: 400px;
+	/*Распологая стоки друг под другом */
+}
+
+.input1 {
+	margin: 10px;
+	padding: 10px;
+	border: unset;
+	border-bottom: 2px solid #e3e3e3;
+	outline: none;
+/*увеличивает отступ между стоками*/
+}
+
+.button1 {
+	padding: 10px;
+	background: #e3e3e3;
+	border: unset;
+	cursor: pointer; 
+	/*настройка кнопки*/
+}
+
+.msg1 {
+	border: 2px solid #ffa908;
+	border-radius: 3px;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold; 
+	/*Выводит тест об успешной аторизации*/
+}
+
+.logout1 {
+	color: #b7625c;
+	/*Выыодит текст об ошибки авторизации*/
+}
